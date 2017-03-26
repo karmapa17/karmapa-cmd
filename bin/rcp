@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir -p $2
+
+cp "$1/$1.js" "$2/$2.js"
+cp "$1/$1.scss" "$2/$2.scss"
+
+for filename in $2/$2.{js,scss}; do
+  sed -i '' "s/$1/$2/g" $filename
+done
