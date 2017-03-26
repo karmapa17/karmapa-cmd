@@ -3,7 +3,7 @@
 ## Installation
 cp bin/* ~/bin/
 
-## rcp
+## react-cp
 similar to linux cp command but also rename the target files
 
 ```
@@ -11,7 +11,7 @@ similar to linux cp command but also rename the target files
 # ├── Foo.js
 # └── Foo.scss
 
-rcp Foo Bar
+react-cp Foo Bar
 
 # Bar folder created, file content will also be replaced from Foo to Bar
 # Bar
