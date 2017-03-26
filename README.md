@@ -1,5 +1,8 @@
 # karmapa-cmd
 
+## Installation
+put bin/* in ~/bin
+
 ## rcp
 similar to linux cp command but also rename the target files
 
